@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
+    
  <head>
-     <title>Frontend unit converteur</title>
-     <meta charset="utf-8">
-     <style>
+    <title>Frontend unit converteur</title>
+
+    <meta charset="utf-8">
+    <style>
         #text{
             margin-left: 50px ;
             font-size:20px;
 	        color :red;
-         }
-        #suite{
-            margin-left: 50px ;
-            font-size:20px;
-	        color :red;
         }
+        
     </style>
  </head>
 
@@ -22,6 +20,7 @@
     
     <div id="text">
         <div> 
+            <h1>Welcome to the online converteur</h1>
             <form action="index.php" method="post">
             <div>Please enter the base unit : <input type="text" name="base"></div>
             <div>Now, enter the other unit <input type="text" name="second"> and the ratio <br\>of convertion <input type="text" name="unit2"> (e.g. 1 meter = 0.001 kilometer)</div>
